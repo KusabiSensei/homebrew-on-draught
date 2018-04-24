@@ -1,4 +1,4 @@
-class CircleCICLI < Formula
+class CircleciCli < Formula
   desc "CircleCI CLI Build Wrapper for CircleCI 2.0"
   homepage "https://circleci.com/docs/2.0/local-cli/"
   url "https://circle-downloads.s3.amazonaws.com/releases/build_agent_wrapper/circleci"
