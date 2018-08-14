@@ -7,10 +7,10 @@ class KubernetesCli < Formula
   head "https://github.com/kubernetes/kubernetes.git"
 
   bottle do
+    root_url "https://github.com/KusabiSensei/homebrew-on-draught/raw/master/Bottles"
     cellar :any_skip_relocation
-    sha256 "ee138a89c5a40a83f0a1d7f5ba8877597b92535174154bc3e8acba429ba42ab2" => :high_sierra
-    sha256 "fd3d0a6c91585c7334990a645812df532396873e9f6f6ae33ed2a9fb8a1a109c" => :sierra
-    sha256 "70f600bd7cefd0733ca95aa0e82d408d6b803774ad556974db899902802637dc" => :el_capitan
+    rebuild 1
+    sha256 "fae19c1621685363802990f5339b202c16ae0625d77d2e68cb23f295d2870a82" => :high_sierra
   end
 
   depends_on "go@1.9" => :build
